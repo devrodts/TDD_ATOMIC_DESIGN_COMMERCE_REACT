@@ -63,39 +63,6 @@ O Atomic Design é uma metodologia para criação de sistemas de design que:
 5. **Qualidade**: TDD garante alta cobertura de testes e confiabilidade do código.
 6. **Experiência consistente**: Atomic Design assegura uma interface de usuário coesa e previsível.
 
-## Fluxograma da Arquitetura
-
-```mermaid
-graph TD
-    User([Usuário]) --> UI[Interface do Usuário]
-    
-    subgraph "Camada de Apresentação"
-        UI --> |Interação| Atoms[Componentes Atômicos]
-        Atoms --> Cells[Células]
-        Cells --> Molecules[Moléculas]
-        Molecules --> Organisms[Organismos]
-        Organisms --> Templates[Templates]
-        Templates --> Pages[Páginas]
-    end
-    
-    subgraph "Camada de Aplicação"
-        Pages --> |Usa| Hooks[Hooks Personalizados]
-        Pages --> |Consome| Context[Contextos]
-        Context --> |Gerencia Estado| DomainServices[Serviços de Domínio]
-    end
-    
-    subgraph "Camada de Domínio"
-        DomainServices --> |Opera em| Entities[Entidades]
-        DomainServices --> |Usa| ValueObjects[Objetos de Valor]
-        Entities --> |Compõem| Aggregates[Agregados]
-    end
-    
-    subgraph "Camada de Infraestrutura"
-        DomainServices --> |Chama| APIClient[API Client]
-        APIClient --> |Comunica com| ExternalAPI[API Externa]
-        DomainServices --> |Persiste| LocalStorage[Armazenamento Local]
-    end
-```
 
 ## Tecnologias Utilizadas
 
