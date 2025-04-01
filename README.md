@@ -1,10 +1,6 @@
 # TDD React Commerce
 
-Este projeto implementa uma aplicação de e-commerce utilizando React com TypeScript, seguindo os princípios de Test-Driven Development (TDD) e Domain-Driven Design (DDD), combinados com a metodologia de design de componentes Atomic Design.
-
-## Arquitetura
-
-A arquitetura do projeto é estruturada seguindo os princípios do DDD para organizar o código em torno do domínio de negócios, mantendo uma separação clara entre as camadas de apresentação, aplicação, domínio e infraestrutura.
+Este projeto implementa uma aplicação de e-commerce utilizando React com TypeScript, seguindo os princípios de Test-Driven Development (TDD) e a metodologia de design de componentes Atomic Design.
 
 ### Estrutura de diretórios
 
@@ -24,14 +20,6 @@ src/
 
 ## Abordagens Utilizadas
 
-### Domain-Driven Design (DDD)
-
-O DDD é uma abordagem de desenvolvimento que:
-
-- **Foca no domínio de negócios**: Organizamos o código em torno dos conceitos centrais do domínio do e-commerce (produtos, carrinho, pedidos, etc.).
-- **Utiliza uma linguagem ubíqua**: Terminologia comum compartilhada entre desenvolvedores e especialistas do domínio.
-- **Separa contextos limitados**: Divisão da aplicação em áreas de responsabilidade distintas.
-- **Aplica padrões táticos**: Entidades, agregados, serviços de domínio, e objetos de valor para modelar o domínio de negócios.
 
 ### Test-Driven Development (TDD)
 
