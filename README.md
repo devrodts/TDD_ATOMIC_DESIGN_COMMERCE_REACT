@@ -1,4 +1,4 @@
-# TDD/DDD React Commerce
+# TDD React Commerce
 
 Este projeto implementa uma aplicação de e-commerce utilizando React com TypeScript, seguindo os princípios de Test-Driven Development (TDD) e Domain-Driven Design (DDD), combinados com a metodologia de design de componentes Atomic Design.
 
