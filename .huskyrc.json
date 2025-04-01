@@ -1,0 +1,5 @@
+{
+    "pre-commit":{
+        "description": "Pre-commit hook to check for code style and linting issues"
+    }
+}
